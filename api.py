@@ -1,8 +1,8 @@
 from flask import Flask, jsonify
-from flask_cors import CORS  # Import CORS
+
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+
 
 recommended_products = [
     {"id": 1, "name": "Face Cream", "price": 15.99, "category": "Skincare"},
