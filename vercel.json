@@ -2,14 +2,13 @@
     "version": 2,
     "functions": {
       "api.py": {
-        "runtime": "python3.9"  // or "python3" for the latest stable version
+        "runtime": "python3.9" 
       }
     },
     "routes": [
       {
-        "src": "/(.*)",        // Match all routes
-        "dest": "api.py"      // Direct to the Python file
+        "src": "/(.*)",        
+        "dest": "api.py"     
       }
     ]
   }
-  
